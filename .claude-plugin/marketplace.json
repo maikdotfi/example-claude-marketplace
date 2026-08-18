@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "example-marketplace",
+  "metadata": {
+    "description": "Example Claude plugin marketplace used to test git-based plugin distribution and consumer auto-updates.",
+    "version": "1.0.0"
+  },
+  "owner": {
+    "name": "maikdotfi",
+    "url": "https://github.com/maikdotfi"
+  },
+  "plugins": [
+    {
+      "name": "social-media",
+      "source": "./plugins/social-media",
+      "description": "Turn source material — a release note, blog post, or announcement — into platform-tailored social posts that respect each network's limits and conventions.",
+      "version": "0.1.0",
+      "author": {
+        "name": "maikdotfi",
+        "url": "https://github.com/maikdotfi"
+      },
+      "homepage": "https://github.com/maikdotfi/example-claude-marketplace",
+      "license": "MIT",
+      "keywords": [
+        "social-media",
+        "marketing",
+        "content",
+        "copywriting"
+      ]
+    }
+  ]
+}
